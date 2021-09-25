@@ -150,7 +150,7 @@ main .sobre-nosotros{
     overflow: hidden;
     position: relative;
     cursor: pointer;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 5);
 }
 
 .imagen-port > img{
@@ -188,109 +188,18 @@ main .sobre-nosotros{
 
 /* Clients */
 
-.cards{
-    display: flex;
-    justify-content: space-around;
-}
-
-.cards .card1{
-    background: #4d0686;
-    display: flex;
-    width: 570px;
-    height: 325px;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 10px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
-}
-
-.cards .card1 video{
-    margin-left: 5px;
-    width: 95%;
-    height: 95%;
-    align-items: center;
-    object-fit: cover;
-    border: 5px solid #fff;
-    border-radius: 3%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.cards .card2{
+video{
+    width: 75%;
+    margin-left: 12%;
     margin-top: 30px;
-    margin-right: 5px;
-    background: #4d0686;
-    display: flex;
-    width: 355px;
-    height: 640px;
-    align-items: center;
-    justify-content: space-evenly;
     border-radius: 10px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
 }
 
-.cards .card2 video{
-    margin-left: 3px;
-    margin-top: 4px;
-    width: 95%;
-    height: 95%;
-    align-items: center;
-    object-fit: cover;
-    border: 5px solid #fff;
-    border-radius: 3%;
-    display: flex;
-}
-
-
-
-.cards .card3{
+.vid2{
+    width: 55%;
+    margin-left: 22%;
     margin-top: 30px;
-    background: #4d0686;
-    display: flex;
-    width: 570px;
-    height: 325px;
-    align-items: center;
-    justify-content: space-evenly;
     border-radius: 10px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
-}
-
-.cards .card3 video{
-    margin-left: 5px;
-    width: 95%;
-    height: 95%;
-    align-items: center;
-    object-fit: cover;
-    border: 5px solid #fff;
-    border-radius: 3%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-
-.cards .card4{
-    margin-top: 30px;
-    background: #4d0686;
-    display: flex;
-    width: 570px;
-    height: 330px;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 10px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
-}
-
-.cards .card4 video{
-    margin-left: 15px;
-    width: 95%;
-    height: 95%;
-    align-items: center;
-    object-fit: cover;
-    border: 5px solid #fff;
-    border-radius: 3%;
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .cora h3{
@@ -395,6 +304,70 @@ footer{
     color: #9e9797;
 }
 
+.main-menu{
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 0px 20px #d4d4d4;
+
+    width: 50px;
+    height: 30vh;
+
+    position: fixed;
+    top:15px;
+    left:10px;
+    
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+    transition: .3s ease;
+}
+
+.main-menu:hover{
+    width : 250px;
+    overflow-y: scroll;
+}
+
+.main-menu .menu-item{
+    padding: 10px;
+}
+.main-menu .menu-item:hover{
+    background-color: #d6d6d6;
+    cursor: pointer;
+    border-bottom-right-radius: -15px;
+}
+
+.main-menu .menu-item .fa{
+    color: gray;
+    width:40px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.main-menu .menu-item:hover > .fa{
+    color: #4d0686;
+}
+
+section.home{
+    background-color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #bbbbbb;
+    border-radius: 10px;
+  }
+
 @media screen and (max-width:900px){
     header{
         background-position: center;
@@ -420,25 +393,6 @@ footer{
         width: 44%;
     }
 
-    /* Clientes */
-
-    .cards{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .cards .card{
-        width: 90%;
-    }
-
-    .cards .card video{
-        width: 90%;
-    }
-
-    .cards .card:first-child{
-        margin-bottom: 30px;
-    }
 
     /* servicios */
 
@@ -458,6 +412,28 @@ footer{
 
     .servicio-ind img{
         width: 90%;
+    }
+
+    .main-menu{
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 0px 20px #d4d4d4;
+
+    width: 50px;
+    height: 18.5vh;
+
+    position: fixed;
+    top:15px;
+    left:10px;
+    
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+    transition: .3s ease;
     }
 
 }
@@ -499,44 +475,6 @@ footer{
 
     /* Clients */
 
-    .cards .card{
-        width: 350;
-        height: 550;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .cards .card video{
-        width: 95%;
-        height: 95%;
-    }
-
-    .cards .cora h3{
-        margin-left: 150px;
-        margin-top: 10px;
-    }
-    
-    .cards .cora h3 span{
-        background: #4d0686;
-        color: #fff;
-        border-radius: 50%;
-        display: inline-block;
-        text-align: center;
-        width: 30px;
-        height: 30px;
-        padding: 2px;
-        box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-        margin-left: 150px;
-        margin-top: 10px;        
-    }
-    
-    .cards .cora p{
-        margin-left: 100px;
-        margin-right: 10px;
-        font-weight: 500px;
-        text-align: center;
-    }
 
     /* Footer */
 
@@ -584,6 +522,7 @@ footer{
 
     .btn-flotante:hover {
     background-color: #4d0686; /* Color de fondo al pasar el cursor */
+    color: #fff;
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
     transform: translateY(-7px);
     }
