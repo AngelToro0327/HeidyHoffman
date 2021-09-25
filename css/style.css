@@ -203,8 +203,9 @@ video{
 }
 
 .cora h3{
-    margin-left: 350px;
+    margin-left: 40%;
     margin-top: 10px;
+    max-width: 250px;
 }
 
 .cora h3 span{
@@ -224,7 +225,7 @@ video{
     margin-left: 10px;
     margin-right: 10px;
     font-weight: 500px;
-    text-align: center;
+
 }
 
 hr {
@@ -514,6 +515,20 @@ section.home{
 
     .titulo-final{
         font-size: 20px;
+    }
+
+    video{
+        width: 95%;
+        margin-left: 12%;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+    
+    .vid2{
+        width: 65%;
+        margin-left: 22%;
+        margin-top: 30px;
+        border-radius: 10px;
     }
 }
 
