@@ -517,6 +517,28 @@ section.home{
         font-size: 20px;
     }
 
+    .main-menu{
+        background-color: #fff;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        box-shadow: 0px 0px 20px #d4d4d4;
+    
+        width: 50px;
+        height: 23vh;
+    
+        position: fixed;
+        top:15px;
+        left:10px;
+        
+        overflow-x: hidden;
+        overflow-y: hidden;
+        white-space: nowrap;
+        
+        transition: .3s ease;
+        }
+
     video{
         width: 95%;
         margin-left: 10%;
