@@ -205,7 +205,7 @@ video{
 .cora h3{
     margin-left: 40%;
     margin-top: 10px;
-    max-width: 250px;
+    max-width: 200px;
 }
 
 .cora h3 span{
@@ -519,14 +519,14 @@ section.home{
 
     video{
         width: 95%;
-        margin-left: 12%;
+        margin-left: 10%;
         margin-top: 30px;
         border-radius: 10px;
     }
     
     .vid2{
         width: 65%;
-        margin-left: 22%;
+        margin-left: 20%;
         margin-top: 30px;
         border-radius: 10px;
     }
