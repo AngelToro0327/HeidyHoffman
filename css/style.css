@@ -436,6 +436,20 @@ section.home{
     transition: .3s ease;
     }
 
+    video{
+        width: 95%;
+        margin-left: 12%;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+    
+    .vid2{
+        width: 65%;
+        margin-left: 22%;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+
 }
 
 @media screen and (max-width:500px){
