@@ -424,7 +424,7 @@ section.home{
     box-shadow: 0px 0px 20px #d4d4d4;
 
     width: 50px;
-    height: 23vh;
+    height: 280px;
 
     position: fixed;
     top:15px;
@@ -437,19 +437,34 @@ section.home{
     transition: .3s ease;
     }
 
-    video{
-        width: 95%;
-        margin-left: 10%;
+    .card1{
+        width: 115%;
+        margin-left: -50px;
         margin-top: 30px;
         border-radius: 10px;
     }
     
-    .vid2{
-        width: 65%;
-        margin-left: 20%;
+    .card2{
+        width: 95%;
+        margin-left: 4%;
         margin-top: 30px;
         border-radius: 10px;
     }
+    
+    .card3{
+        width: 115%;
+        margin-left: -50px;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+    
+    .card4{
+        width: 115%;
+        margin-left: -50px;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+    
 
 }
 
