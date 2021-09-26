@@ -424,7 +424,7 @@ section.home{
     box-shadow: 0px 0px 10px #d4d4d4;
 
     width: 50px;
-    height: 320px;
+    height: 420px;
 
     position: fixed;
     top:15px;
@@ -439,28 +439,28 @@ section.home{
 
     .card1{
         width: 105%;
-        margin-left: -20px;
+        margin-left: -40px;
         margin-top: 30px;
         border-radius: 10px;
     }
     
     .card2{
         width: 85%;
-        margin-left: 6%;
+        margin-left: 4%;
         margin-top: 30px;
         border-radius: 10px;
     }
     
     .card3{
         width: 105%;
-        margin-left: -20px;
+        margin-left: -40px;
         margin-top: 30px;
         border-radius: 10px;
     }
     
     .card4{
         width: 105%;
-        margin-left: -20px;
+        margin-left: -40px;
         margin-top: 30px;
         border-radius: 10px;
     }
